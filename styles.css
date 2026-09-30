@@ -2,5 +2,36 @@
 h1 {
   /* Demo style -- remove me and write your own */
   font-size: 48px;
-  color: purple;
+  color: rgb(177, 10, 177);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: rgb(177, 120, 204);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(179, 128, 87);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px;
+    color: rgb(52, 50, 50);
 }
+h2 {
+  color:rgb(198, 106, 25);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(193, 164, 135);
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(247, 247, 251);
+    border-radius: 8px;
+   box-shadow: 0px 0px 10px 0px; color: rgb(52, 50, 50);
+}
+main {
+  background-color: rgb(179, 128, 87);
+  padding: 8px;
+  max-width: 900px;
+  margin-inline: auto;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgba(247, 247, 251, 0);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px;
+    color: rgb(52, 50, 50);
+}
+
