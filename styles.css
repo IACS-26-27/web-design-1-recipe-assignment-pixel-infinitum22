@@ -1,51 +1,80 @@
 /* Your styles go here! */
-body{
-  background-color:rgb(55, 27, 27);
+body {
+  background-color: rgb(99, 77, 36);
 }
+
 h1 {
   /* Demo style -- remove me and write your own */
   font-size: 48px;
 
-  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  /* AI-generated code starts here */
+  /* Student prompt: "Can you make all of my <h1> have the font Noto Sans in style.css?" */
+  /* Student prompt: "Could you try out Space Grotesk instead of Noto Sans?" */
+  /* Student prompt: "Could you change <h1> to Vend Sans and <h2> to Lilex?" */
+  font-family: "Vend Sans", sans-serif;
+  /* AI-generated code ends here */
   background-color: #330343;
-    border-style: solid;
-    border-width: 1px;
-    border-color: #675a4e;
-    border-radius: 8px;
-    box-shadow: 0px 0px 10px 0px; color:#675a4e;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #675a4e;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px;
+  color: #9d7d5f;
+  text-align: center;
+  font-size: 45px;
 }
+
 h2 {
   color: #F9E2CA;
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  /* AI-generated code starts here */
+  /* Student prompt: "Now could you make all my <h2> have the font Carlito?" */
+  /* Student prompt: "Could you change <h1> to Vend Sans and <h2> to Lilex?" */
+  font-family: "Lilex", sans-serif;
+  /* AI-generated code ends here */
   background-color: #C1A487;
-    border-width: 2px;
-    border-color: #F7F7FB;
-    border-radius: 8px;
-    text-shadow: 4px 3px 4px #2E2114;
+  border-width: 2px;
+  border-color: #F7F7FB;
+  border-radius: 8px;
+  text-shadow: 4px 3px 4px #2E2114;
+  font-size: 22px;
 }
+
+div {
+  /* AI-generated code starts here */
+  /* Student prompt: "Could you make all of my 'div.' have Cormorant Garamond as the font?" */
+  /* Student prompt: "Can you make the font for \"div\" as Joan?" */
+  font-family: "Joan", serif;
+  font-weight: 300;
+  font-height: 1.5;
+  font-size: 20px;
+  /* AI-generated code ends here */
+}
+
 main {
-  background-color: #675a4e;
+  background-color: #725e4b;
   padding: 8px;
   max-width: 900px;
   margin-inline: auto;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(247, 247, 251, 0);
-    border-start-end-radius: 8px;
-    box-shadow: 0px 0px 10px 0px;
-    color: #2E2114;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(247, 247, 251, 0);
+  border-start-end-radius: 8px;
+  box-shadow: 0px 0px 10px 0px;
+  color: #2E2114;
 }
+
 div.ingredients {
   background-color: #C1A487;
   padding: 8px;
   max-width: 900px;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(247, 247, 251, 0);
-    border-radius: 8px;
-    box-shadow: 0px 0px 6px 0px;
-    color: #2E2114;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(247, 247, 251, 0);
+  border-radius: 8px;
+  box-shadow: 0px 0px 6px 0px;
+  color: #2E2114;
 }
+
 div.prepping {
   background-color: #C1A487;
   padding: 8px;
@@ -58,6 +87,7 @@ div.prepping {
   box-shadow: 0px 0px 6px 0px;
   color: #2E2114;
 }
+
 div.cooking {
   background-color: #C1A487;
   padding: 8px;
@@ -70,15 +100,16 @@ div.cooking {
   box-shadow: 0px 0px 6px 0px;
   color: #2E2114;
 }
+
 footer {
-  background-color: #2E2114;
-    padding: 8px;
-    max-width: 900px;
-    margin-inline: auto;
-    border-style: solid;
-    border-width: 2px;
-    border-color: rgba(247, 247, 251, 0);
-    border-end-end-radius: 8px;
-    box-shadow: 0px 0px 10px 0px;
-    color: #2E2114;
+  background-color: #725e4b;
+  padding: 8px;
+  max-width: 900px;
+  margin-inline: auto;
+  border-style: solid;
+  border-width: 2px;
+  border-color: rgba(247, 247, 251, 0);
+  border-end-end-radius: 8px;
+  box-shadow: 0px 0px 10px 0px;
+  color: #725e4b;
 }
